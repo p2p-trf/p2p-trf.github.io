@@ -1,0 +1,23 @@
+# Site settings
+title: "P2P-TRF"
+description: > 
+  P2P Grad Studies: Tech Research Forum.
+
+author: Asura Enkhbayar
+email: 
+twitter_username: 
+github_username: 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title.html
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
