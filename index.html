@@ -3,8 +3,16 @@ layout: page
 title: Home
 ---
 
-<section>{{ site.pages.intro.content }}</section>
-
+<article class="c-article">
+  <header class="c-article__header">
+    <h1 class="c-article__title">The p2p Tech Research Forum</h1>
+  </header>
+  <div class="c-article__main">
+    <p>The forum and this page are still under construction.</p>
+    <p>Feel free to read more about us <a href="{{ "/about/" | prepend: site.baseurl }}">here</a> or continue to our
+    <a href="{% post_url 2018-11-25-inaugural-event %}">first blog post</a> about the upcoming inaugural meeting of the P2P-TRF.</p>
+  </div>
+</article>
 
 <section class="c-archives">
   <link rel="shortcut icon" href="">
